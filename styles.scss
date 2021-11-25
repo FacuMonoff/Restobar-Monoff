@@ -1,0 +1,35 @@
+/*IMPORTACION*/
+@import "responsive";
+
+/*VARIABLES*/
+$rojo: red;
+$negro: black;
+
+
+ul{
+    list-style: none;
+     li{
+         display: inline-block;
+         position: relative;
+         font-size: 15px;
+         ul li a:hover{
+                      background-color: $rojo;
+                      color: white;
+                      padding: 4px;
+         }
+     }
+} 
+
+body{
+    display: flex;
+	height: 600px;
+	flex-direction: column;
+	padding: 1em;
+    h1{
+        color: $rojo;
+        background-color: $negro;
+    }
+    h2{
+        color: $negro;
+    }
+}
